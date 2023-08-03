@@ -1,0 +1,273 @@
+#titulo{
+    text-align: center;
+    color: white;
+    padding-top: 10%;
+    font-size: 70px;
+    text-align: center;
+
+}
+#subtitulo{
+    color: white;
+    padding-left: 20%;
+    padding-right: 20%;
+    font-size: 30px;
+    text-align:center;
+}
+#acao{
+    color: white;
+    border: 1px solid white;
+    padding: 7px 10px 8px 10px;
+    border-radius: 20px;
+    font-size: 20px;
+    text-decoration: initial;
+}
+#imagem-fundo {
+    background: url(img/fundo.jpg);
+    height: 100%;
+    text-align: center;
+    background-size: cover;
+}
+.video{
+    float: left;
+    position: relative;
+}
+.coluna {
+    float: left;
+    padding: 0 5%;
+    position: relative;
+}
+.dois {
+    width: 40%;
+}
+.quatro {
+    width: 15%;
+}
+.tres {
+    width: 29%;
+    padding: 0 2%;
+}
+.justificado{
+    text-align: justify;'
+}
+.centralizado{
+    text-align: center;
+}
+#selecao {
+    -background-c
+    text-align: center;
+}
+#caixa{
+    width: 60%;
+    height: 50%;
+    border: 3px solid tomato;
+    text-align: center;
+}
+.section {
+    padding: 20px;
+    float: left;
+}
+.destaque{
+    background-color: black;
+    
+}
+.destaque2{
+    background-color: tomato;
+    height: 70%;
+}
+.quatro{
+    width: 15%;
+}
+.icone{
+    width: 51px;
+}
+body{
+    background-color: black;
+    height: 100%;
+}
+.imgeco{
+    width: 100%;
+    height: 45%;
+}
+.destaque3 {
+    background-color: rgb(19, 20, 48);
+    height: 100%;
+}
+.coluna2 {
+    float: left;
+    padding: 60px 5%;
+    position: relative;
+}
+.tres {
+    width: 22%;
+}
+.branco{
+
+color: white;
+
+}
+#ecopontos{
+height: 80%;
+width: 30%;
+
+}
+.imagem{
+
+width: 100%;
+
+}
+.sobre{
+background-color: firebrick;
+height: 85%;
+ 
+
+
+
+}
+.left{
+text-align: left;
+
+
+}
+.sm{
+
+height: 5%;
+width: 5%;
+
+
+}
+#logo{
+width: 96px;
+position: absolute;
+top: 10px;
+margin-left: 2%;
+-border: 1px red solid;
+
+
+}
+#menu{
+ -border: 1px red solid;   
+float: right;
+list-style: none;
+margin-top: 0px;
+
+
+}
+
+
+#interesse{
+background-color: fuchsia;
+height: ;
+
+
+
+}
+header{
+background-color: black;
+color: white;
+height: 60px;
+width: 100%;
+position: fixed;
+z-index: 10;
+
+
+}
+
+.li{
+float: left;
+padding: 20 25 20 25;
+
+
+
+}
+
+
+.li:hover{
+background-color: aqua;
+
+
+
+}
+
+html,body{
+
+margin: 0;
+
+}
+
+.colunal {
+    float: ;
+    padding: 0 5%;
+    position: relative;
+
+}
+
+#lista{
+list-style: disc;
+
+
+}
+
+#ordenada{
+float: left;
+list-style: decimal;
+margin-top: 0;
+
+
+
+}
+#desordenada{
+float: left;
+list-style: disc;
+margin-top: 0;
+
+
+
+}
+
+#fundo{
+
+background-color: cornflowerblue;
+height: 30%;
+padding-top: 5%;
+}
+
+#otlista{
+list-style: lower-alpha;
+float: left;
+margin-top: 0;
+
+
+
+
+}
+
+pb{
+padding-bottom: ;
+
+}
+
+@media all and (max-width:600px){
+#menu {
+visibility: hidden;
+}
+.coluna, .dois, .tres, .quatro, .coluna2, .imagem{
+display: block;
+width: 80%;
+padding: 0;
+margin: 10px auto;
+float: none;
+
+}
+}
+
+@media all and (max-width:800px){
+     
+    .coluna, .dois, .coluna2, .imagem {
+    display: block;
+    width: 80%;
+    padding: 0;
+    margin: 10px auto;
+    float: none;
+    
+    }
+    }
